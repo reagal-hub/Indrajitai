@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatGPT UI Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>ChatGPT</h1>
+      <button id="newChatBtn">+ New Chat</button>
+      <ul id="chatList"></ul>
+    </aside>
+
+    <main class="chat-area">
+      <div class="chat-messages" id="chatMessages"></div>
+
+      <div class="input-area">
+        <textarea id="userInput" placeholder="Send a message..."></textarea>
+        <button id="sendBtn">➤</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
